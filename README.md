@@ -23,8 +23,8 @@ Basta explorar as pastas modules/, projects/ e certificates/! Cada projeto tem u
 - Tecnologias: AWS (vou atualizar conforme avanço no bootcamp)
 
 ## 📬 Quer falar comigo?
-- LinkedIn: https://www.linkedin.com/in/alexcheherica
-- DIO: https://www.dio.me/users/alexcheherica
+- LinkedIn: https://www.linkedin.com/in/gabriela-santiago-6568791a4/
+- DIO: https://web.dio.me/users/gabrielademelosantiago27?tab=achievements
 
 ## Unidades
 
@@ -37,9 +37,9 @@ Basta explorar as pastas modules/, projects/ e certificates/! Cada projeto tem u
 | Módulo | Categoria | Submódulos/Atividades | Duração (hrs) | Check |
 |--------|-----------|-----------------------|---------------|-------|
 | MO-1   | Introdução à AWS e Conceitos Básicos | CURSO Introdução ao Santander Code Girls 2025 - AWS Cloud Foundations | 1 | ✅ |
-|        |           | CURSO Introdução à AWS e ao Universo da Computação em Nuvem | 1 | ✅ |
-|        |           | CURSO Fundamentos Essenciais da Infraestrutura AWS | 1 | ✅ |
-|        |           | CURSO Configurando sua Conta AWS com Segurança e Eficiência | 1 | ✅ |
+|        |           | CURSO Introdução à AWS e ao Universo da Computação em Nuvem | 1 |  |
+|        |           | CURSO Fundamentos Essenciais da Infraestrutura AWS | 1 |  |
+|        |           | CURSO Configurando sua Conta AWS com Segurança e Eficiência | 1 |  |
 |        |           | CURSO Primeiros Passos com Acesso Seguro e Controle de Custos na AWS | 1 |   |
 |        |           | MENTORIA Live de Lançamento - Code Girls 2025 | 1 |   |
 | MO-2   | Computação na Nuvem com EC2 | CURSO Entendendo as Instância EC2 e a Otimização de Recursos na AWS | 1 |   |
