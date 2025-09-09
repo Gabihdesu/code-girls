@@ -2,7 +2,7 @@
 Aqui você vai acompanhar minha jornada no Bootcamp Santander CODE GIRLS 2025.
 
 ## 📌 Quem sou eu
-Oi! Eu sou Gabriela de Melo Santiago, Analista de Dados Jr. na empresa Gerdau. Neste repositório, vou registrar tudo que aprendendo: módulos, desafios, mentorias e certificados.
+Oi! Eu sou Gabriela de Melo Santiago, Analista de Dados PL. na empresa Gerdau. Neste repositório, vou registrar tudo que estou aprendendo: módulos, desafios, mentorias e certificados.
 
 ## 🚀 Meus objetivos
 - Completar toda a trilha do bootcamp
