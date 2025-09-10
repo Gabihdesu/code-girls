@@ -13,9 +13,10 @@ Oi! Eu sou Gabriela de Melo Santiago, Analista de Dados PL. na empresa Gerdau. N
 - /modules/ — cursos organizados por módulos
 - /projects/ — desafios de projetos, desafios de códigos que desenvolvi
 - /certificates/ — meus certificados
+- /notes/ minhas anotações
 
 ## 📝 Como navegar
-Basta explorar as pastas modules/, projects/ e certificates/! Cada projeto tem um README com as instruções para rodar e testar.
+Basta explorar as pastas modules/, projects/ notes e certificates/! Cada projeto tem um README com as instruções para rodar e testar.
 
 ## 🔧 Ferramentas que uso
 - Git e GitHub
@@ -43,7 +44,7 @@ Basta explorar as pastas modules/, projects/ e certificates/! Cada projeto tem u
 |        |           | CURSO Primeiros Passos com Acesso Seguro e Controle de Custos na AWS | 1 | ✅ |
 |        |           | MENTORIA Live de Lançamento - Code Girls 2025 | 1 | ✅ |
 | MO-2   | Computação na Nuvem com EC2 | CURSO Entendendo as Instância EC2 e a Otimização de Recursos na AWS | 1 |   |
-|        |           | CURSO Armazenamento na Nuvem com amazon EBS e S3 | 1 |   |
+|        |           | CURSO Armazenamento na Nuvem com amazon EBS e S3 | 1 | ✅  |
 |        |           | DESAFIO DE PROJETO Gerenciando Instâncias EC2 na AWS | 1 |   |
 | MO-3   | Criando Recursos na AWS | CURSO Criando sua Primeira Instância Amazon EC2 | 1 |   |
 |        |           | CURSO Criando seu Primeiro Bucket no Amazon S3 | 1 |   |
