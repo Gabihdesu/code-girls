@@ -85,11 +85,7 @@ O histórico de interações é salvo no DynamoDB para melhorar o contexto e a e
 
 - **Amazon API Gateway** - Gerenciamento de APIs para comunicação entre frontend e backend
 
-- **Amazon Cognito** - Autenticação de usuários
-
 - **Amazon S3** - Armazenamento de conteúdo estático
-
-- **Amazon CloudFront** - CDN para entrega rápida de conteúdo
 
 - **Amazon CloudWatch** - Monitoramento e logs
 
