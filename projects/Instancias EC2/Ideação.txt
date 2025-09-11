@@ -1,0 +1,134 @@
+🧠 Objetivo do Sistema
+
+Criar um chatbot inteligente, hospedado na AWS, capaz de:
+
+Entender linguagem natural (ex: "Quero agendar um horário para amanhã"),
+
+Responder com lógica contextual (ex: usando regras de negócio),
+
+E, opcionalmente, usar IA generativa (tipo ChatGPT) para gerar respostas mais sofisticadas ou criativas.
+
+Pode ser aplicado em:
+
+Atendimento ao cliente
+
+Suporte técnico automatizado
+
+Assistente interno corporativo
+
+FAQ interativo
+
+🔧 Componentes e Racional de Arquitetura
+1. Amazon Lex – Interface de Conversação (NLP)
+
+Serviço gerenciado de chatbot da AWS, com reconhecimento de intenções (intents), entidades e controle de diálogo.
+
+Substitui o trabalho manual de fazer NLP.
+
+Você define: intenções, slots, respostas.
+
+🧠 Ele transforma fala ou texto em intenções estruturadas (ex: MarcarConsulta(intent, {data: amanhã})).
+
+2. AWS Lambda – Lógica de Negócio
+
+Cada intenção do Lex pode acionar uma função Lambda.
+
+A Lambda:
+
+Faz validações
+
+Consulta base de dados (RDS, DynamoDB)
+
+Chama serviços externos
+
+Ou usa IA generativa via Bedrock
+
+🧠 Toda a lógica fica desacoplada e serverless.
+
+3. Amazon Bedrock (ou OpenAI via API externa) – IA Generativa
+
+Bedrock permite usar modelos como Anthropic Claude, Meta Llama, Amazon Titan, etc.
+
+Pode ser usado para:
+
+Melhorar respostas genéricas (ex: "Como posso te ajudar com isso?")
+
+Criar resumos
+
+Traduzir ou reescrever respostas
+
+Integra-se facilmente com Lambda.
+
+🧠 Adiciona "cérebro criativo" ao bot — ideal quando Lex não tem uma resposta bem definida.
+
+4. Amazon DynamoDB – Armazenamento de Sessões e Histórico
+
+Banco NoSQL para armazenar:
+
+Histórico de conversas
+
+Sessões ativas
+
+Dados temporários (slots capturados)
+
+Baixa latência e escalável
+
+🧠 Permite criar bots que "lembram" do que o usuário disse antes.
+
+5. Amazon API Gateway – Exposição via API
+
+Permite integrar o chatbot com front-ends (web, app, etc.)
+
+Pode expor a API do Lambda para ser usada por um app externo (ex: React, mobile)
+
+🧠 Facilita a comunicação entre seu front-end e o bot.
+
+6. Amazon Cognito – Autenticação
+
+Autenticação de usuários no front-end (opcional)
+
+Garante que apenas usuários autenticados possam acessar certas funcionalidades do bot
+
+🧠 Útil se o bot precisar lidar com dados sensíveis ou contextuais de um usuário logado.
+
+7. Amazon S3 + CloudFront – Front-End do Bot (opcional)
+
+Hospeda uma interface web (ex: React com chat)
+
+CloudFront melhora a performance com CDN global
+
+8. Amazon CloudWatch – Logs e Monitoramento
+
+Monitoramento do Lambda, uso do Lex, chamadas ao Bedrock
+
+Alertas configuráveis
+
+🔄 Fluxo de Conversa Simplificado
+
+Usuário entra no site ou app e digita uma pergunta.
+
+A mensagem é enviada via API Gateway para o Lex.
+
+Lex detecta a intenção e aciona uma Lambda.
+
+A Lambda pode:
+
+Consultar dados no DynamoDB
+
+Chamar Bedrock para gerar uma resposta
+
+Retornar um texto estruturado
+
+Lex formata e devolve a resposta ao usuário.
+
+✅ Vantagens da Arquitetura
+
+Serverless: Você só paga pelo uso.
+
+Escalável: Suporta muitos usuários simultaneamente.
+
+Flexível: Pode usar IA generativa apenas onde for necessário.
+
+Integrável: Pode ser usado em apps, sites ou plataformas como WhatsApp, Messenger etc.
+
+Seguro: Com Cognito e monitoramento via CloudWatch.
