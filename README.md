@@ -48,10 +48,10 @@ Basta explorar as pastas modules/, projects/ notes e certificates/! Cada projeto
 |        |           | DESAFIO DE PROJETO Gerenciando Instâncias EC2 na AWS | 1 |   |
 | MO-3   | Criando Recursos na AWS | CURSO Criando sua Primeira Instância Amazon EC2 | 1 | ✅ |
 |        |           | CURSO Criando seu Primeiro Bucket no Amazon S3 | 1 | ✅ |
-|        |           | CURSO Criando sua Primeira Função com Amazon Lambda | 1 |   |
-|        |           | CURSO Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional | 1 |   |
-|        |           | DESAFIO DE CÓDIGO Associando Conceitos de Recursos da AWS | 1 |   |
-| MO-4   | Redes na AWS | CURSO Introdução à Amazon VPC | 1 |   |
+|        |           | CURSO Criando sua Primeira Função com Amazon Lambda | 1 | ✅  |
+|        |           | CURSO Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional | 1 | ✅ |
+|        |           | DESAFIO DE CÓDIGO Associando Conceitos de Recursos da AWS | 1 | ✅  |
+| MO-4   | Redes na AWS | CURSO Introdução à Amazon VPC | 1 | ✅  |
 |        |           | CURSO Entendendo o que é uma Subnet na Amazon VPC | 1 |   |
 |        |           | CURSO Introdução ao Security Group na AWS | 1 |   |
 |        |           | CURSO Explorando os Fundamentos do Route 53 na AWS | 1 |   |
