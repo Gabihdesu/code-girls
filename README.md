@@ -57,7 +57,7 @@ Basta explorar as pastas modules/, projects/ notes e certificates/! Cada projeto
 |        |           | CURSO Explorando os Fundamentos do Route 53 na AWS | 1 | ✅  |
 |        |           | CURSO Introdução à Distribuição de Conteúdo com Amzon CloudFront | 1 | ✅  |
 |        |           | CURSO Entendendo o que é o Amazon Elastic Load Balancer | 1 | ✅ |
-| MO-5   | Banco de Dados na AWS | CURSO Entendendo o que é RDS | 1 |   |
+| MO-5   | Banco de Dados na AWS | CURSO Entendendo o que é RDS | 1 | ✅ |
 |        |           | CURSO Introdução ao Amazon DynamoDB | 1 |   |
 |        |           | CURSO Explorando Estratégias de Backup e Recuperação de Dados na AWS | 1 |   |
 | MO-6   | Serviços de Armazenamento e CDN | CURSO Introdução ao Amazon S3 | 1 |   |
