@@ -1,0 +1,110 @@
+Gerador de policitas AWS: https://awspolicygen.s3.amazonaws.com/policygen.html
+
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1720058223605",
+    "Statement": [
+        {
+            "Sid": "Stmt1720058220645",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::formacaoaws-02/*"
+        }
+    ]
+}
+
+----------- Acesso total ao S3 e EC2
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "ec2:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+----------- Acesso de leitura ao S3 e EC2
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:Describe*",
+                "s3:Get*",
+                "s3:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
+EC2: A aÃ§Ã£o "ec2:Describe*" permite todas as operaÃ§Ãµes de descriÃ§Ã£o para os recursos do EC2.
+S3: As aÃ§Ãµes "s3:Get*" e "s3:List*" permitem operaÃ§Ãµes de leitura e listagem em buckets e objetos do S3.
+
+
+----------- Acesso ao bucket 1Âª e 2Âª mas nÃ£o acessa o 3Âª
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:Get*",
+                "s3:List*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket-1",
+                "arn:aws:s3:::bucket-1/*",
+                "arn:aws:s3:::bucket-2",
+                "arn:aws:s3:::bucket-2/*"
+            ]
+        },
+        {
+            "Effect": "Deny",
+            "Action": [
+                "s3:Get*",
+                "s3:List*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket-3",
+                "arn:aws:s3:::bucket-3/*"
+            ]
+        }
+    ]
+}
+
+----------- Sobe arquivo mas nÃ£o apaga no bucket
+
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:PutObjectAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::nome-do-bucket/*"
+            ]
+        },
+        {
+            "Effect": "Deny",
+            "Action": [
+                "s3:DeleteObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::nome-do-bucket/*"
+            ]
+        }
+    ]
+}
