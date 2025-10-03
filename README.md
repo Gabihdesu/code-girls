@@ -60,13 +60,13 @@ Basta explorar as pastas modules/, projects/ notes e certificates/! Cada projeto
 | MO-5   | Banco de Dados na AWS | CURSO Entendendo o que é RDS | 1 | ✅ |
 |        |           | CURSO Introdução ao Amazon DynamoDB | 1 | ✅   |
 |        |           | CURSO Explorando Estratégias de Backup e Recuperação de Dados na AWS | 1 | ✅   |
-| MO-6   | Serviços de Armazenamento e CDN | CURSO Introdução ao Amazon S3 | 1 |✅  |
-|        |           | CURSO Conhecendo o Amazon Glacier | 1 |   |
-|        |           | CURSO Entendendo a Distribuição de Conteúdo com Amazon CloudFront | 1 |   |
-|        |           | DESAFIO DE CÓDIGO Associando Conceitos de Serviços de Armazenamento e CDN | 1 |   |
-| MO-7   | Serviços Intermediários e Avançados | CURSO Entendendo como Funciona o AWS Lambda | 1 |   |
-|        |           | CURSO Entendendo o que são Amazon ECS e EKS na Orquestração de Containers | 1 |   |
-|        |           | CURSO Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona | 1 |   |
+| MO-6   | Serviços de Armazenamento e CDN | CURSO Introdução ao Amazon S3 | 1 |✅ |
+|        |           | CURSO Conhecendo o Amazon Glacier | 1 | ✅ |
+|        |           | CURSO Entendendo a Distribuição de Conteúdo com Amazon CloudFront | 1 | ✅ |
+|        |           | DESAFIO DE CÓDIGO Associando Conceitos de Serviços de Armazenamento e CDN | 1 |✅ |
+| MO-7   | Serviços Intermediários e Avançados | CURSO Entendendo como Funciona o AWS Lambda | 1 | ✅   |
+|        |           | CURSO Entendendo o que são Amazon ECS e EKS na Orquestração de Containers | 1 |  ✅  |
+|        |           | CURSO Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona | 1 | ✅   |
 |        |           | DESAFIO DE PROJETO Explorando Workflowas Automatizados com AWS Step Functions | 1 |   |
 | MO-8   | Gerenciamento e Governança na AWS | CURSO Entendendo o que é o AWS CloudWatch | 1 |   |
 |        |           | CURSO Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS | 1 |   |
