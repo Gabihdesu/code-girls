@@ -65,9 +65,9 @@ Basta explorar as pastas modules/, projects/ notes e certificates/! Cada projeto
 |        |           | CURSO Entendendo a Distribuição de Conteúdo com Amazon CloudFront | 1 | ✅ |
 |        |           | DESAFIO DE CÓDIGO Associando Conceitos de Serviços de Armazenamento e CDN | 1 |✅ |
 | MO-7   | Serviços Intermediários e Avançados | CURSO Entendendo como Funciona o AWS Lambda | 1 | ✅   |
-|        |           | CURSO Entendendo o que são Amazon ECS e EKS na Orquestração de Containers | 1 |  ✅  |
-|        |           | CURSO Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona | 1 | ✅   |
-|        |           | DESAFIO DE PROJETO Explorando Workflowas Automatizados com AWS Step Functions | 1 |   |
+|        |           | CURSO Entendendo o que são Amazon ECS e EKS na Orquestração de Containers | 1 |  ✅|
+|        |           | CURSO Entendendo como Funcionam o Amazon SNS e SQS na Comunicação Assíncrona | 1 | ✅|
+|        |           | DESAFIO DE PROJETO Explorando Workflowas Automatizados com AWS Step Functions | 1 |✅|
 | MO-8   | Gerenciamento e Governança na AWS | CURSO Entendendo o que é o AWS CloudWatch | 1 |   |
 |        |           | CURSO Fundamentos do AWS CloudTrail para Auditoria e Segurança na AWS | 1 |   |
 |        |           | DESAFIO DE PROJETO Implementando sua Primeira Stack com AWS CloudFormation | 1 |   |
